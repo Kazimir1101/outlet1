@@ -212,6 +212,12 @@ $(document).ready(function () {
 
 });
 
+$(document).ready(function () {
+    $('.menu-add-ad').click(function(){
+        window.location.href='/newad/newad.html';
+    })
+});
+
 
 
 
