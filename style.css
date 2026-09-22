@@ -49,7 +49,7 @@ a {
 ===================================================== */
 
 .header {
-    height: 76px;
+    height: 70px;
     width: 100%;
 
     display: flex;
@@ -60,6 +60,7 @@ a {
 
     background: #ffffff;
     border-bottom: 1px solid #eceef1;
+    border-radius: 0px 0px 14px 14px;
 }
 
 .logo {
@@ -190,10 +191,8 @@ a {
     margin-bottom: 16px;
 }
 
-.section-header h2 {
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: -.5px;
+.section-header h3 {
+    font-size: 14px;
 }
 
 .section-header p {
@@ -612,7 +611,7 @@ a {
 }
 
 .ad-content h3 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
 
     white-space: nowrap;
@@ -623,7 +622,7 @@ a {
 .ad-description {
     margin-top: 5px;
 
-    font-size: 14px;
+    font-size: 13px;
 
     color: #9b9fa5;
 
@@ -667,7 +666,7 @@ a {
 
     color: #9a9da2;
 
-    font-size: 9px;
+    font-size: 10px;
 }
 
 .ad-info span:first-child {
@@ -677,7 +676,7 @@ a {
 }
 
 .ad-info i {
-    font-size: 9px;
+    font-size: 8px;
 }
 
 
@@ -1602,10 +1601,7 @@ a {
 
     border-radius: 10px;
 
-    /* background: rgba(128, 129, 131, 0.7); */
     background: none;
-
-    backdrop-filter: blur(8px);
 
     color: rgba(63, 65, 70, 0.7);
 
@@ -1625,10 +1621,7 @@ a {
 
     border-radius: 12px;
 
-    background: rgba(20,22,25,.70);
-    background:none;
-
-    backdrop-filter: blur(8px);
+    background: none;
 
     color: rgba(63, 65, 70, 0.7);
 
@@ -1651,8 +1644,6 @@ a {
 
 
 .product-modal-close:hover {
-
-    background: rgba(20,22,25,.90);
 
     transform: rotate(90deg);
 
@@ -1903,7 +1894,7 @@ a {
 
     color: #a1a4a9;
 
-    font-size: 13px;
+    font-size: 14px;
 
     text-decoration: line-through;
 
@@ -1914,7 +1905,7 @@ a {
 
     color: #ff5a36;
 
-    font-size: 21px;
+    font-size: 20px;
 
     font-weight: 900;
 
@@ -1997,7 +1988,7 @@ a {
 
     color: #a2a5aa;
 
-    font-size: 9px;
+    font-size: 10px;
 
 }
 
@@ -2026,29 +2017,9 @@ a {
 
     padding: 9px 0px;
 
-    background: #f8f8f9;
-
-    border-radius: 16px;
-
-    transition:
-        .2s ease;
+    margin-bottom:0px;
 
 }
-
-
-.product-modal-address:hover {
-
-    background: #ffffff;
-
-    border-color: #e5e5e7;
-
-    box-shadow:
-        0 6px 18px rgba(0,0,0,.05);
-
-    transform: translateY(-1px);
-
-}
-
 
 /* Icon */
 
@@ -2056,21 +2027,21 @@ a {
 
     flex-shrink: 0;
 
-    width: 39px;
-    height: 39px;
+    width: 36px;
+    height: 36px;
 
     display: flex;
 
     align-items: center;
     justify-content: center;
 
-    border-radius: 12px;
+    border-radius: 11px;
 
     background: #fff0eb;
 
     color: #ff5a36;
 
-    font-size: 15px;
+    font-size: 13px;
 
 }
 
@@ -2096,7 +2067,7 @@ a {
 
     color: #a2a5aa;
 
-    font-size: 9px;
+    font-size: 10px;
 
     font-weight: 500;
 
@@ -2197,7 +2168,7 @@ a {
     .product-modal-address {
 
         margin: 0 18px 15px;
-        /* margin-bottom:-10px; */
+        margin-bottom:0px;
 
     }
 
@@ -2226,7 +2197,8 @@ a {
 
     .product-location > i,
     .product-phone > i,
-    .product-date > i {
+    .product-date > i,
+    .product-modal-address > i {
 
         width: 32px;
         height: 32px;
@@ -2686,11 +2658,11 @@ a {
     }
 
     .ad-content h3 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .ad-description {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .price-row {
@@ -2698,18 +2670,18 @@ a {
     }
 
     .price-row strong {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .old-price {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .ad-info {
         margin-top: 8px;
         padding-top: 8px;
 
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .favorite {
@@ -2802,3 +2774,4 @@ a {
     }
 
 }
+
